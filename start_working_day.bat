@@ -2,7 +2,6 @@
 ::Start working day script - starts the usual programs for my day
 
 title Start working day script
-echo. && echo sharo baro..
 
 set GREETING=Greetings, master! Let your day be fulfilled with successes and joy!
 
