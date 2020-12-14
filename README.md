@@ -1,2 +1,2 @@
 # Start working day
-Starts a bunch of programs.
+Short batch scripts for running recurrent daily tasks
