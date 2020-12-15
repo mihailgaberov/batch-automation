@@ -15,6 +15,7 @@ Start ""  "C:\Program Files (x86)\Microsoft Office\root\Office16\OUTLOOK.EXE"
 
 echo Opening Chrome...
 start chrome <URL>
+start chrome "" <URL> (new tab)
 
 echo Opening Webstorm...
 Start ""  "C:\Program Files\JetBrains\WebStorm 2020.2.3\bin\webstorm64.exe"
