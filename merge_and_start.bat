@@ -17,5 +17,8 @@ pause
 echo Merging `dev` into current branch . . .
 git merge dev
 pause
+echo Pushing merged changes into the current branch . . .
+git push
+pause
 echo Starting the project via NPM . . .
 npm start
