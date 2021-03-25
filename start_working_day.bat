@@ -3,7 +3,7 @@
 
 title Start working day script
 
-set GREETING=Greetings, master! May the force be with you!
+set GREETING=Greetings, master! Stay Safe and May The Source Be With You!
 
 echo ===========================================================================
 echo *** %GREETING% ***
