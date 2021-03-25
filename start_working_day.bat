@@ -20,8 +20,8 @@ start chrome "" <URL> (new tab)
 echo ==^> Start Webstorm
 Start ""  "C:\Program Files\JetBrains\WebStorm 2020.2.3\bin\webstorm64.exe"
 
-echo ==^> Start ConEmu
-Start ""  "C:\Program Files\cmder\vendor\conemu-maximus5\ConEmu64.exe"
+echo ==^> Start CMD
+start /b /d "C:\Git\
 
 echo ==^> Start Sublime Text 3...
 Start ""  "C:\Program Files\Sublime Text 3\sublime_text.exe"
