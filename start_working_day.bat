@@ -1,30 +1,34 @@
 @ECHO OFF
-::Start working day script - starts the usual programs for my day
+::Start working day script - launch the apps I use for my day
 
-title Start working day script
+title Start working day
 
-set GREETING=Greetings, master! Stay Safe and May The Source Be With You!
+set GREETING=Greetings, master! May the force be with you!
 
 echo ===========================================================================
 echo *** %GREETING% ***
 echo ===========================================================================
 
+rem echo ==^> Start IntelliJ IDEA
+rem start ""  "C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.1\bin\idea64.exe"
 
-echo ==^> Start OUTLOOK"
-Start ""  "C:\Program Files (x86)\Microsoft Office\root\Office16\OUTLOOK.EXE"
+echo ==^> Start VSCode
+start ""  "C:\Users\mihai\AppData\Local\Programs\Microsoft VS Code\Code.exe"
 
-echo ==^> Start Chrome"
-start chrome <URL>
-start chrome "" <URL> (new tab)
+echo ==^> Start TopTracker
+start ""  "C:\Program Files (x86)\TopTracker\TopTracker.exe"
 
-echo ==^> Start Webstorm
-Start ""  "C:\Program Files\JetBrains\WebStorm 2020.2.3\bin\webstorm64.exe"
+rem echo ==^> Start Chrome
+rem start chrome "https://trello.com/b/TpvwHnmw/bah"
+
+echo ==^> Start Brave Browser
+start brave "https://trello.com/b/TpvwHnmw/bah"
+
+echo ==^> Start Edge
+start msedge "http://localhost:3000/admin#/"
 
 echo ==^> Start CMD
-start /b /d "C:\Git\
+start /b /d "C:\Git\"
 
-echo ==^> Start Sublime Text 3...
-Start ""  "C:\Program Files\Sublime Text 3\sublime_text.exe"
-
-PAUSE
-echo Goodbye, master!
+echo ==^> Start Telegram
+start "Telegram" "C:\Users\mihai\AppData\Roaming\Telegram Desktop\Telegram.exe"
